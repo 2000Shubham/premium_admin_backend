@@ -1,0 +1,165 @@
+CRITICAL - 2026-09-04 09:39:11 --> Error: Class "App\Models\HtPlanContributionModel" not found
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-09-04 09:39:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'real_estate_admin'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php(202): mysqli->real_connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#9 {main}
+ERROR - 2026-09-04 09:54:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'real_estate_admin'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php(202): mysqli->real_connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#9 {main}
+ERROR - 2026-09-04 10:51:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'real_estate_admin'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php(202): mysqli->real_connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#9 {main}
+ERROR - 2026-09-04 10:51:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'real_estate_admin'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php(202): mysqli->real_connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#9 {main}
+ERROR - 2026-09-04 10:55:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'real_estate_admin'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php(202): mysqli->real_connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#9 {main}
+ERROR - 2026-09-04 10:57:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'real_estate_admin'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:202
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php(202): mysqli->real_connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Models\HtPlanContributionModel.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\app\Controllers\Plan_management\PlanController.php(67): App\Models\HtPlanContributionModel->insertViaProcedure()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\primium_admin\public\index.php(59): CodeIgniter\Boot::bootWeb()
+#9 {main}

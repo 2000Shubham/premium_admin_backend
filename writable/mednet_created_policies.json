@@ -1,0 +1,79 @@
+[
+    {
+        "policy_no": "330662",
+        "mednet_policy_no": "",
+        "member_no": "",
+        "effective_date": "",
+        "expiry_date": ""
+    },
+    {
+        "policy_no": "330663",
+        "mednet_policy_no": "",
+        "member_no": "",
+        "effective_date": "",
+        "expiry_date": ""
+    },
+    {
+        "policy_no": "330664",
+        "mednet_policy_no": "",
+        "member_no": "",
+        "effective_date": "",
+        "expiry_date": ""
+    },
+    {
+        "policy_no": "330665",
+        "mednet_policy_no": "",
+        "member_no": "",
+        "effective_date": "",
+        "expiry_date": ""
+    },
+    {
+        "policy_no": "330666",
+        "mednet_policy_no": "822321",
+        "member_no": "4631019",
+        "effective_date": "2023-06-15",
+        "expiry_date": "2024-09-05"
+    },
+    {
+        "policy_no": "330667",
+        "mednet_policy_no": "822334",
+        "member_no": "4631036",
+        "effective_date": "2023-06-15",
+        "expiry_date": "2024-09-05"
+    },
+    {
+        "policy_no": "330668",
+        "mednet_policy_no": "822339",
+        "member_no": "4631041",
+        "effective_date": "2023-06-15",
+        "expiry_date": "2024-09-05"
+    },
+    {
+        "policy_no": "330669",
+        "mednet_policy_no": "822341",
+        "member_no": "4631046",
+        "effective_date": "2023-06-15",
+        "expiry_date": "2024-09-05"
+    },
+    {
+        "policy_no": "330670",
+        "mednet_policy_no": "822354",
+        "member_no": "4631064",
+        "effective_date": "2023-06-15",
+        "expiry_date": "2024-09-05"
+    },
+    {
+        "policy_no": "330671",
+        "mednet_policy_no": "822356",
+        "member_no": "4631070",
+        "effective_date": "2023-06-15",
+        "expiry_date": "2026-09-05"
+    },
+    {
+        "policy_no": "33067",
+        "mednet_policy_no": "822360",
+        "member_no": "4631073",
+        "effective_date": "2023-06-15",
+        "expiry_date": "2026-09-05"
+    }
+]

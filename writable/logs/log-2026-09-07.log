@@ -1,0 +1,90 @@
+ERROR - 2026-09-07 07:22:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+CRITICAL - 2026-09-07 07:22:32 --> Error: Call to undefined method App\Controllers\Plan_management\PlanController::respond()
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-09-07 07:23:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+CRITICAL - 2026-09-07 07:23:37 --> Error: Call to undefined method App\Controllers\Plan_management\PlanController::respond()
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-09-07 07:24:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+CRITICAL - 2026-09-07 07:24:36 --> Error: Call to undefined method App\Controllers\Plan_management\PlanController::respond()
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-09-07 07:26:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+CRITICAL - 2026-09-07 07:26:28 --> Error: Call to undefined method App\Controllers\Plan_management\PlanController::respond()
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-09-07 07:28:13 --> Error: Call to undefined method App\Controllers\Plan_management\PlanController::respond()
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-09-07 07:28:15 --> Error: Call to undefined method App\Controllers\Plan_management\PlanController::respond()
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-09-07 07:28:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+CRITICAL - 2026-09-07 07:28:57 --> Error: Call to undefined method App\Controllers\Plan_management\PlanController::respond()
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-09-07 07:29:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+CRITICAL - 2026-09-07 07:29:33 --> Error: Call to undefined method App\Controllers\Plan_management\PlanController::respond()
+[Method: POST, Route: plan/add-plans]
+in APPPATH\Controllers\Plan_management\PlanController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Plan_management\PlanController->addPlans()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-09-07 07:32:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+ERROR - 2026-09-07 07:34:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+ERROR - 2026-09-07 07:36:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+ERROR - 2026-09-07 07:38:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+ERROR - 2026-09-07 07:38:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+ERROR - 2026-09-07 08:11:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+ERROR - 2026-09-07 08:12:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+ERROR - 2026-09-07 08:17:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Plan code already exists.
+CRITICAL - 2026-09-07 10:46:37 --> ErrorException: Cannot redeclare App\Models\PlanModel::savePremiumRate()
+[Method: POST, Route: plan/add-maternity-rate]
+in APPPATH\Models\PlanModel.php on line 77.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

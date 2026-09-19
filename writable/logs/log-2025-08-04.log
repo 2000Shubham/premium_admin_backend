@@ -1,0 +1,198 @@
+WARNING - 2025-08-04 05:59:10 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 88.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(88): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllPropertyStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 06:00:29 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 181.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(181): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllPropertyType()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 06:11:56 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 181.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(181): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllPropertyType()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-04 06:41:37 --> ErrorException: Cannot redeclare App\Controllers\admin\MasterDataController::getPropertyTypeById()
+[Method: POST, Route: api/getAllPropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-08-04 06:43:26 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/updatePropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 650.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(650): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->updatePropertyType()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-04 06:46:20 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/updatePropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 650.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(650): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->updatePropertyType()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-04 06:47:00 --> ErrorException: Cannot redeclare App\Controllers\admin\MasterDataController::getAmenitiesById()
+[Method: POST, Route: api/getAllPropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 1001.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-08-04 06:47:03 --> ErrorException: Cannot redeclare App\Controllers\admin\MasterDataController::getAmenitiesById()
+[Method: POST, Route: api/getAllPropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 1001.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-08-04 06:47:08 --> ErrorException: Cannot redeclare App\Controllers\admin\MasterDataController::getAmenitiesById()
+[Method: POST, Route: api/getAllPropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 1001.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-08-04 06:49:31 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/getAmenitiesById]
+in APPPATH\Controllers\admin\MasterDataController.php on line 846.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(846): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAmenitiesById()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-04 07:10:39 --> ErrorException: Cannot redeclare App\Controllers\admin\MasterDataController::deleteLocation()
+[Method: POST, Route: api/getAllPropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 1076.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-08-04 07:11:51 --> ErrorException: Cannot redeclare App\Controllers\admin\MasterDataController::deleteLocation()
+[Method: POST, Route: api/getAllPropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 1076.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-08-04 07:12:02 --> ErrorException: Cannot redeclare App\Controllers\admin\MasterDataController::deleteLocation()
+[Method: POST, Route: api/getAllPropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 1076.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-08-04 07:12:10 --> ErrorException: Cannot redeclare App\Controllers\admin\MasterDataController::updateLocation()
+[Method: POST, Route: api/getAllPropertyType]
+in APPPATH\Controllers\admin\MasterDataController.php on line 1116.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2025-08-04 07:14:36 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 30.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(30): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllUnitTypes()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-04 08:03:07 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/updateAllUnitTypes]
+in APPPATH\Controllers\admin\MasterDataController.php on line 330.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(330): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->updateAllUnitTypes()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-04 08:04:07 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/updateAllUnitTypes]
+in APPPATH\Controllers\admin\MasterDataController.php on line 330.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(330): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->updateAllUnitTypes()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-04 08:24:43 --> ErrorException: Undefined array key "unitTypeId"
+[Method: POST, Route: api/deleteAllUnitTypes]
+in APPPATH\Controllers\admin\MasterDataController.php on line 290.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(290): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->deleteAllUnitTypes()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-08-04 08:25:32 --> ErrorException: Undefined array key "unitTypeId"
+[Method: POST, Route: api/deleteAllUnitTypes]
+in APPPATH\Controllers\admin\MasterDataController.php on line 290.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(290): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->deleteAllUnitTypes()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+WARNING - 2025-08-04 08:52:29 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 152.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(152): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllFurnishingStatus()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 09:44:27 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 59.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(59): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllFloorType()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 10:29:52 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 117.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(117): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllAmenities()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 11:09:05 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 210.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(210): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllLocation()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 11:10:33 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 210.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(210): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllLocation()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 11:11:33 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 210.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(210): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllLocation()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 11:12:45 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 210.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(210): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllLocation()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-08-04 11:14:13 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Controllers\admin\MasterDataController.php on line 210.
+ 1 APPPATH\Controllers\admin\MasterDataController.php(210): json_decode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\MasterDataController->getAllLocation()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\MasterDataController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

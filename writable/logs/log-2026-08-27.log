@@ -1,0 +1,22 @@
+ERROR - 2026-08-27 11:16:31 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:7484:8608:efd0:80e. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+
+ERROR - 2026-08-27 11:18:00 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:7484:8608:efd0:80e. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+
+ERROR - 2026-08-27 11:37:30 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:7484:8608:efd0:80e. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+
+ERROR - 2026-08-27 11:40:30 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:7484:8608:efd0:80e. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+
+ERROR - 2026-08-27 11:40:43 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:7484:8608:efd0:80e. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+
+CRITICAL - 2026-08-27 12:21:35 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: api/mednet/generate-ecard]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\MednetController.php(98): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MednetController->generateEcard()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MednetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\medical_new\\public\\index.php')

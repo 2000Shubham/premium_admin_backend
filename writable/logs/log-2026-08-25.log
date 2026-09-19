@@ -1,0 +1,68 @@
+CRITICAL - 2026-08-25 06:37:44 --> Error: Call to undefined method App\Services\MednetService::sendEmailAsignDriver()
+[Method: POST, Route: api/mednet/generate-ecard]
+in APPPATH\Services\MednetService.php on line 458.
+ 1 APPPATH\Controllers\MednetController.php(113): App\Services\MednetService->generateEcard('330658', '02016372', 'info@base.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MednetController->generateEcard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MednetController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\medical_new\\public\\index.php')
+CRITICAL - 2026-08-25 06:38:03 --> ErrorException: Undefined variable $ecardUrl
+[Method: POST, Route: api/mednet/generate-ecard]
+in APPPATH\Services\MednetService.php on line 459.
+ 1 APPPATH\Services\MednetService.php(459): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ecardUrl', 'C:\\xampp\\htdocs\\medical_new\\app\\Services\\MednetService.php', 459)
+ 2 APPPATH\Controllers\MednetController.php(113): App\Services\MednetService->generateEcard('330658', '02016372', 'info@base.com')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MednetController->generateEcard()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MednetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\medical_new\\public\\index.php')
+CRITICAL - 2026-08-25 06:39:11 --> ErrorException: Undefined variable $name
+[Method: POST, Route: api/mednet/generate-ecard]
+in APPPATH\Services\MednetService.php on line 538.
+ 1 APPPATH\Services\MednetService.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\medical_new\\app\\Services\\MednetService.php', 538)
+ 2 APPPATH\Services\MednetService.php(458): App\Services\MednetService->sendEcardEmail()
+ 3 APPPATH\Controllers\MednetController.php(113): App\Services\MednetService->generateEcard('330658', '02016372', 'info@base.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MednetController->generateEcard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MednetController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\medical_new\\public\\index.php')
+CRITICAL - 2026-08-25 06:39:31 --> ErrorException: Undefined variable $name
+[Method: POST, Route: api/mednet/generate-ecard]
+in APPPATH\Services\MednetService.php on line 538.
+ 1 APPPATH\Services\MednetService.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\medical_new\\app\\Services\\MednetService.php', 538)
+ 2 APPPATH\Services\MednetService.php(458): App\Services\MednetService->sendEcardEmail()
+ 3 APPPATH\Controllers\MednetController.php(113): App\Services\MednetService->generateEcard('330658', '02016372', 'info@base.com')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MednetController->generateEcard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MednetController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\medical_new\\public\\index.php')
+ERROR - 2026-08-25 06:40:08 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:200b:8412:755d:882. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+
+CRITICAL - 2026-08-25 06:40:09 --> Error: Call to undefined method App\Services\MednetService::sendEmailAsignDriver()
+[Method: POST, Route: api/mednet/generate-ecard]
+in APPPATH\Services\MednetService.php on line 500.
+ 1 APPPATH\Controllers\MednetController.php(113): App\Services\MednetService->generateEcard('330658', '02016372', 'info@base.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MednetController->generateEcard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MednetController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\medical_new\\public\\index.php')
+ERROR - 2026-08-25 06:40:41 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:200b:8412:755d:882. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+
+ERROR - 2026-08-25 06:45:25 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:200b:8412:755d:882. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+
+ERROR - 2026-08-25 11:59:55 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:200b:8412:755d:882. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+

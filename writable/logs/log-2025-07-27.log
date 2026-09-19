@@ -1,0 +1,60 @@
+CRITICAL - 2025-07-27 05:25:05 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: api/createPartner]
+in APPPATH\Controllers\admin\Partner.php on line 195.
+ 1 APPPATH\Controllers\admin\Partner.php(195): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Partner->createPartner()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-27 05:25:15 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: api/createPartner]
+in APPPATH\Controllers\admin\Partner.php on line 195.
+ 1 APPPATH\Controllers\admin\Partner.php(195): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Partner->createPartner()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-27 05:26:50 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: api/createPartner]
+in APPPATH\Controllers\admin\Partner.php on line 195.
+ 1 APPPATH\Controllers\admin\Partner.php(195): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Partner->createPartner()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-27 05:28:25 --> ErrorException: Undefined array key "email"
+[Method: POST, Route: api/createPartner]
+in APPPATH\Controllers\admin\Partner.php on line 195.
+ 1 APPPATH\Controllers\admin\Partner.php(195): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Partner->createPartner()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-27 05:33:18 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: api/createPartner]
+in APPPATH\Controllers\admin\Partner.php on line 198.
+ 1 APPPATH\Controllers\admin\Partner.php(198): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Partner->createPartner()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-27 05:35:23 --> ErrorException: Undefined array key "company_name"
+[Method: POST, Route: api/createPartner]
+in APPPATH\Controllers\admin\Partner.php on line 200.
+ 1 APPPATH\Controllers\admin\Partner.php(200): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Partner->createPartner()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()

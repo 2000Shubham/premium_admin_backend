@@ -1,0 +1,2 @@
+ERROR - 2026-08-26 06:23:23 --> E-Card email failed. Response: {"message":"We have detected you are using an unrecognised IP address 2409:4090:200d:602c:3cce:2002:ba1c:931c. If you performed this action make sure to add the new IP address in this link: https://app.brevo.com/security/authorised_ips","code":"unauthorized"}
+

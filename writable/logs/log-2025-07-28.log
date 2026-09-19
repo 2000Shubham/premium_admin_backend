@@ -1,0 +1,401 @@
+CRITICAL - 2025-07-28 06:10:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 06:11:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 06:11:22 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 06:18:22 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 06:18:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 06:18:39 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 06:18:43 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 06:22:19 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 06:37:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "avtar1753439422_image (1).png"
+[Method: GET, Route: uploads/avtar1753439422_image%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-07-28 10:20:18 --> mysqli_sql_exception: Unknown column 'reraNumber' in 'where clause' in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\app\Controllers\admin\Property.php(117): CodeIgniter\BaseModel->first()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\index.php(63): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2025-07-28 10:20:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reraNumber' in 'where clause'
+[Method: POST, Route: api/createProperty]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\admin\Property.php(117): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:20:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reraNumber' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\admin\Property.php(117): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:20:18 --> [Caused by] mysqli_sql_exception: Unknown column 'reraNumber' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\admin\Property.php(117): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-07-28 10:20:56 --> mysqli_sql_exception: Unknown column 'rera_number' in 'where clause' in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\BaseModel.php(717): CodeIgniter\Model->doFirst()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\app\Controllers\admin\Property.php(117): CodeIgniter\BaseModel->first()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\index.php(63): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2025-07-28 10:20:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'rera_number' in 'where clause'
+[Method: POST, Route: api/createProperty]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\admin\Property.php(117): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:20:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'rera_number' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\admin\Property.php(117): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:20:56 --> [Caused by] mysqli_sql_exception: Unknown column 'rera_number' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(717): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\admin\Property.php(117): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:22:00 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: api/createProperty]
+in APPPATH\Controllers\admin\Property.php on line 119.
+ 1 APPPATH\Controllers\admin\Property.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:29:19 --> ErrorException: Undefined variable $usermodel
+[Method: POST, Route: api/createProperty]
+in APPPATH\Controllers\admin\Property.php on line 139.
+ 1 APPPATH\Controllers\admin\Property.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:51:27 --> ErrorException: Undefined variable $userType
+[Method: POST, Route: api/getPropertyList]
+in APPPATH\Controllers\admin\Property.php on line 62.
+ 1 APPPATH\Controllers\admin\Property.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->getPropertyList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-07-28 10:57:45 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\MySQLi\Connection.php(327): mysqli->query()
+#1 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\app\Models\admin\Property_model.php(29): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\app\Controllers\admin\Property.php(59): App\Models\admin\Property_model->countFiltered()
+#6 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(933): App\Controllers\admin\Property->getPropertyList()
+#7 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#8 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\index.php(63): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-07-28 10:57:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: POST, Route: api/getPropertyList]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\admin\Property_model.php(29): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH\Controllers\admin\Property.php(59): App\Models\admin\Property_model->countFiltered()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->getPropertyList()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:57:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\admin\Property_model.php(29): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH\Controllers\admin\Property.php(59): App\Models\admin\Property_model->countFiltered()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->getPropertyList()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 10:57:45 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\admin\Property_model.php(29): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\admin\Property.php(59): App\Models\admin\Property_model->countFiltered()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->getPropertyList()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 11:06:09 --> ErrorException: Undefined property: stdClass::$order
+[Method: POST, Route: api/getPropertyList]
+in APPPATH\Controllers\admin\Property.php on line 50.
+ 1 APPPATH\Controllers\admin\Property.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->getPropertyList()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 11:06:55 --> ErrorException: Undefined variable $getPartner
+[Method: POST, Route: api/getPropertyById]
+in APPPATH\Controllers\admin\Property.php on line 172.
+ 1 APPPATH\Controllers\admin\Property.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->getPropertyById()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 11:19:09 --> Error: Class "App\Controllers\admin\Partner_model" not found
+[Method: POST, Route: api/deleteProperty]
+in APPPATH\Controllers\admin\Property.php on line 197.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->deleteProperty()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 12:16:02 --> ArgumentCountError: Too few arguments to function App\Controllers\admin\Partner::sendEmailPartner(), 0 passed in C:\inetpub\vhosts\coderlab.cdrlb.com\httpdocs\realStateCRMBackend_Admin\app\Controllers\admin\Partner.php on line 235 and exactly 3 expected
+[Method: POST, Route: api/createPartner]
+in APPPATH\Controllers\admin\Partner.php on line 259.
+ 1 APPPATH\Controllers\admin\Partner.php(235): App\Controllers\admin\Partner->sendEmailPartner()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Partner->createPartner()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+INFO - 2025-07-28 12:20:44 --> Partner credentials email sent to: shubhamamrutkar640@gmail.com
+INFO - 2025-07-28 12:24:02 --> Partner credentials email sent to: amrutkarshubham693@gmail.com
+INFO - 2025-07-28 12:25:08 --> Partner credentials email sent to: shubhamamrutkar33@gmail.com
+CRITICAL - 2025-07-28 16:48:12 --> ErrorException: Undefined array key "projectName"
+[Method: POST, Route: api/createProperty]
+in APPPATH\Controllers\admin\Property.php on line 99.
+ 1 APPPATH\Controllers\admin\Property.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 16:52:02 --> ErrorException: Undefined array key "projectName"
+[Method: POST, Route: api/createProperty]
+in APPPATH\Controllers\admin\Property.php on line 99.
+ 1 APPPATH\Controllers\admin\Property.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 16:58:14 --> ErrorException: Undefined array key "projectName"
+[Method: POST, Route: api/createProperty]
+in APPPATH\Controllers\admin\Property.php on line 99.
+ 1 APPPATH\Controllers\admin\Property.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 16:59:40 --> ErrorException: Undefined array key "projectName"
+[Method: POST, Route: api/createProperty]
+in APPPATH\Controllers\admin\Property.php on line 99.
+ 1 APPPATH\Controllers\admin\Property.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 17:01:22 --> ErrorException: Undefined array key "projectName"
+[Method: POST, Route: api/createProperty]
+in APPPATH\Controllers\admin\Property.php on line 99.
+ 1 APPPATH\Controllers\admin\Property.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->createProperty()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-07-28 18:11:30 --> ErrorException: Undefined array key "propertyId"
+[Method: POST, Route: api/updateProperty]
+in APPPATH\Controllers\admin\Property.php on line 228.
+ 1 APPPATH\Controllers\admin\Property.php(228): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Property->updateProperty()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(63): CodeIgniter\Boot::bootWeb()
+INFO - 2025-07-28 18:24:30 --> Partner credentials email sent to: sneha@testmail.com
+INFO - 2025-07-28 18:32:05 --> Partner credentials email sent to: ravi@xyz.com
+INFO - 2025-07-28 18:35:16 --> Partner credentials email sent to: pooja@demo.com
+INFO - 2025-07-28 18:38:50 --> Partner credentials email sent to: kiran@domain.com
+INFO - 2025-07-28 18:46:28 --> Partner credentials email sent to: mayu@gmail.com
+INFO - 2025-07-28 18:49:05 --> Partner credentials email sent to: Niki@gmail.com
+INFO - 2025-07-28 18:53:50 --> Partner credentials email sent to: tanaji@gmail.com
+INFO - 2025-07-28 18:58:38 --> Partner credentials email sent to: shini@gamil.com
+INFO - 2025-07-28 19:01:21 --> Partner credentials email sent to: ratuja@gmail.com
