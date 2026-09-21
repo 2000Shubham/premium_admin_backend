@@ -65,6 +65,9 @@ $routes->group('plan', ['namespace' => 'App\Controllers\Plan_management'], stati
     $routes->options('get-plan-by-id', static function () {
         return service('response')->setStatusCode(204);
     });
+    $routes->options('delete-plan', static function () {
+        return service('response')->setStatusCode(204);
+    });
     $routes->post('add-plans', 'PlanController::addPlans');
     $routes->post('update-plan', 'PlanController::updatePlan');
     $routes->post('update-premium-rates', 'PlanController::updatePremiumRates');
@@ -86,6 +89,7 @@ $routes->group('plan', ['namespace' => 'App\Controllers\Plan_management'], stati
     $routes->post('get-plans', 'PlanController::getPlans');
     $routes->get('get-plan-by-id', 'PlanController::getPlanById');
     $routes->post('get-plan-by-id', 'PlanController::getPlanById');
+    $routes->post('delete-plan', 'PlanController::deletePlan');
 });
 
 $routes->group('age-band', ['namespace' => 'App\Controllers\Age_band'], static function ($routes) {
@@ -185,4 +189,119 @@ $routes->group('annual-limit', ['namespace' => 'App\Controllers\Annual_limit'], 
     $routes->post('get-annual-limit-factor-by-id', 'AnnualLimitController::getById');
     $routes->post('save-annual-limit-factor', 'AnnualLimitController::saveAnnualLimitFactor');
     $routes->post('update-annual-limit-factor', 'AnnualLimitController::updateAnnualLimitFactor');
+});
+
+$routes->group('adjustment', ['namespace' => 'App\Controllers\Adjustment'], static function ($routes) {
+    $routes->options('get-adjustment-factors', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-adjustment-factors', 'AdjustmentController::getAdjustmentFactors');
+    $routes->options('get-adjustment-factor-by-id', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-adjustment-factor-by-id', 'AdjustmentController::getById');
+    $routes->options('save-adjustment-factor', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('save-adjustment-factor', 'AdjustmentController::saveAdjustmentFactor');
+    $routes->options('update-adjustment-factor', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('update-adjustment-factor', 'AdjustmentController::updateAdjustmentFactor');
+    $routes->options('delete-adjustment-factor', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('delete-adjustment-factor', 'AdjustmentController::deleteAdjustmentFactor');
+});
+
+$routes->group('benefit', ['namespace' => 'App\Controllers\Benefit'], static function ($routes) {
+    $routes->options('get-benefit-premiums', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-benefit-premiums', 'BenefitController::getBenefitPremiums');
+    $routes->options('get-benefit-premium-by-id', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-benefit-premium-by-id', 'BenefitController::getById');
+    $routes->options('save-benefit-premium', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('save-benefit-premium', 'BenefitController::saveBenefitPremium');
+    $routes->options('update-benefit-premium', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('update-benefit-premium', 'BenefitController::updateBenefitPremium');
+});
+
+$routes->group('calculator', ['namespace' => 'App\Controllers\Calculator'], static function ($routes) {
+    $routes->options('calculate-premium', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('calculate-premium', 'CalculatorController::calculatePremium');
+    $routes->options('get-genders', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-genders', 'CalculatorController::getGenders');
+    $routes->options('get-regions', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-regions', 'CalculatorController::getRegions');
+    $routes->options('get-plans', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-plans', 'CalculatorController::getPlans');
+    $routes->options('get-networks', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-networks', 'CalculatorController::getNetworks');
+    $routes->options('get-annual-limits', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-annual-limits', 'CalculatorController::getAnnualLimits');
+    $routes->options('get-diagnostic-options', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-diagnostic-options', 'CalculatorController::getDiagnosticOptions');
+    $routes->options('get-ip-copay-options', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-ip-copay-options', 'CalculatorController::getIpCopayOptions');
+    $routes->options('get-consultation-options', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-consultation-options', 'CalculatorController::getConsultationOptions');
+    $routes->options('get-pharmacy-limit-options', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-pharmacy-limit-options', 'CalculatorController::getPharmacyLimitOptions');
+    $routes->options('get-pharmacy-copay-options', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-pharmacy-copay-options', 'CalculatorController::getPharmacyCopayOptions');
+    $routes->options('get-tpa-options', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-tpa-options', 'CalculatorController::getTpaOptions');
+    $routes->options('get-dental-options', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-dental-options', 'CalculatorController::getDentalOptions');
+    $routes->options('get-optical-options', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-optical-options', 'CalculatorController::getOpticalOptions');
+});
+
+$routes->group('history', ['namespace' => 'App\Controllers\History'], static function ($routes) {
+    $routes->options('get-calculation-history', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-calculation-history', 'HistoryController::getCalculationHistory');
+});
+
+$routes->group('dashboard', ['namespace' => 'App\Controllers\Dashboard'], static function ($routes) {
+    $routes->options('get-dashboard-summary', static function () {
+        return service('response')->setStatusCode(204);
+    });
+    $routes->post('get-dashboard-summary', 'DashboardController::getDashboardSummary');
 });
