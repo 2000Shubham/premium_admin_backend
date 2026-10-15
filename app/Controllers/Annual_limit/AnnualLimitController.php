@@ -108,6 +108,60 @@ class AnnualLimitController extends BaseController
         }
     }
 
+    public function deleteAnnualLimitFactor()
+    {
+        try {
+            $requestData = $this->request->getJSON(true);
+            if (! $requestData) {
+                $requestData = $this->request->getPost();
+            }
+            if (! is_array($requestData)) {
+                $requestData = [];
+            }
+
+            $id    = $this->payloadValue($requestData, ['AnnualLimitFactorId', 'annualLimitFactorId', 'Id', 'id']);
+            $limit = $this->payloadValue($requestData, ['AnnualLimit', 'annualLimit', 'Limit', 'limit']);
+
+            if (($id === null || $id === '') && ($limit === null || $limit === '')) {
+                return $this->response->setStatusCode(400)
+                    ->setJSON([
+                        'res_code'    => 400,
+                        'status'      => false,
+                        'message'     => 'AnnualLimitFactorId or AnnualLimit is required',
+                        'res_massage' => 'AnnualLimitFactorId or AnnualLimit is required',
+                    ]);
+            }
+
+            $result = (new AnnualLimitModel())->deleteAnnualLimitFactor([
+                'AnnualLimitFactorId' => ($id === null || $id === '') ? null : (int) $id,
+                'AnnualLimit'         => ($limit === null || $limit === '') ? null : (int) $limit,
+                'RegionCode'          => $this->payloadValue($requestData, ['RegionCode', 'regionCode']),
+            ]);
+
+            return $this->response->setStatusCode(200)
+                ->setJSON([
+                    'res_code'    => 200,
+                    'status'      => true,
+                    'message'     => 'Annual limit factor deleted successfully',
+                    'res_massage' => 'Annual limit factor deleted successfully',
+                    'data'        => $result,
+                ]);
+        } catch (\Exception $e) {
+            $message = $e->getMessage();
+            if (preg_match('/\[SQL Server\](.*)$/s', $message, $matches)) {
+                $message = trim($matches[1]);
+            }
+
+            return $this->response->setStatusCode(400)
+                ->setJSON([
+                    'res_code'    => 400,
+                    'status'      => false,
+                    'message'     => $message,
+                    'res_massage' => $message,
+                ]);
+        }
+    }
+
     public function saveAnnualLimitFactor()
     {
         return $this->writeAnnualLimitFactor(false);

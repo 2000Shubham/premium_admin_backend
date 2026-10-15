@@ -518,7 +518,7 @@ class PlanModel extends Model
         }
 
         if (! empty($row['PlanId'])) {
-            $plans[] = $row;
+            $plans[] = $this->mapPlanRow($row);
         }
     }
 
@@ -595,5 +595,51 @@ class PlanModel extends Model
         if ($type === 'BenefitPremiums') {
             $out['benefitPremiums'][] = $row;
         }
+    }
+
+    public function deletePlan($data)
+    {
+        $db = \Config\Database::connect();
+
+        $sql = "
+            EXEC dbo.usp_HT_DeletePlan
+                @PlanId   = ?,
+                @PlanCode = ?
+        ";
+
+        $query = $db->query($sql, [
+            $data['PlanId'] ?? null,
+            $data['PlanCode'] ?? null,
+        ]);
+
+        if ($query === false) {
+            $error = $db->error();
+            throw new \RuntimeException($error['message'] ?? 'Unable to delete plan');
+        }
+
+        $row = $query->getRowArray();
+        if (! $row) {
+            $stmt = $query->resultID ?? null;
+            if ($stmt && sqlsrv_next_result($stmt)) {
+                $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC) ?: null;
+            }
+        }
+
+        return $this->mapPlanRow($row ?: []);
+    }
+
+    private function mapPlanRow($row)
+    {
+        if (! is_array($row) || $row === []) {
+            return $row;
+        }
+
+        foreach (['EffectiveFrom', 'EffectiveTo'] as $key) {
+            if (isset($row[$key]) && $row[$key] instanceof \DateTimeInterface) {
+                $row[$key] = $row[$key]->format('Y-m-d');
+            }
+        }
+
+        return $row;
     }
 }

@@ -61,8 +61,8 @@ class PlanController extends BaseController
             'Description'    => $requestData['Description'] ?? null,
             'RegionCode'     => $requestData['RegionCode'] ?? 'DUBAI',
             'CopyFromPlanId' => $requestData['CopyFromPlanId'] ?? null,
-            'EffectiveFrom'  => $requestData['EffectiveFrom'] ?? null,
-            'EffectiveTo'    => null,
+            'EffectiveFrom'  => $requestData['EffectiveFrom'] ?? $requestData['effectiveFrom'] ?? null,
+            'EffectiveTo'    => $requestData['EffectiveTo'] ?? $requestData['effectiveTo'] ?? null,
             'IsActive'       => $requestData['IsActive'] ?? 1
         ]);
    
@@ -1132,6 +1132,54 @@ public function addMaternityRate()
                     'status'      => true,
                     'message'     => 'Plan fetched successfully',
                     'res_massage' => 'Plan fetched successfully',
+                    'data'        => $result,
+                ]);
+        } catch (\Exception $e) {
+            return $this->response->setStatusCode(400)
+                ->setJSON([
+                    'res_code'    => 400,
+                    'status'      => false,
+                    'message'     => $this->procedureMessage($e),
+                    'res_massage' => $this->procedureMessage($e),
+                ]);
+        }
+    }
+
+    public function deletePlan()
+    {
+        try {
+            $requestData = $this->request->getJSON(true);
+            if (! $requestData) {
+                $requestData = $this->request->getPost();
+            }
+            if (! is_array($requestData)) {
+                $requestData = [];
+            }
+
+            $planId   = $this->payloadValue($requestData, ['PlanId', 'planId']);
+            $planCode = $this->payloadValue($requestData, ['PlanCode', 'planCode']);
+
+            if (($planId === null || $planId === '') && ($planCode === null || $planCode === '')) {
+                return $this->response->setStatusCode(400)
+                    ->setJSON([
+                        'res_code'    => 400,
+                        'status'      => false,
+                        'message'     => 'PlanId or PlanCode is required',
+                        'res_massage' => 'PlanId or PlanCode is required',
+                    ]);
+            }
+
+            $result = (new PlanModel())->deletePlan([
+                'PlanId'   => ($planId === null || $planId === '') ? null : (int) $planId,
+                'PlanCode' => $planCode,
+            ]);
+
+            return $this->response->setStatusCode(200)
+                ->setJSON([
+                    'res_code'    => 200,
+                    'status'      => true,
+                    'message'     => 'Plan marked inactive',
+                    'res_massage' => 'Plan marked inactive',
                     'data'        => $result,
                 ]);
         } catch (\Exception $e) {

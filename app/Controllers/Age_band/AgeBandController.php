@@ -130,6 +130,42 @@ class AgeBandController extends BaseController
         }
     }
 
+    public function deleteAgeBand()
+    {
+        try {
+            $requestData = $this->request->getJSON(true);
+            if (! $requestData) {
+                $requestData = $this->request->getPost();
+            }
+            if (! is_array($requestData)) {
+                return $this->validationError('Invalid JSON payload');
+            }
+
+            $id   = $this->payloadValue($requestData, ['AgeBandId', 'ageBandId', 'Id', 'id']);
+            $code = $this->payloadValue($requestData, ['Code', 'code', 'AgeBandCode']);
+
+            if (($id === null || $id === '') && ($code === null || $code === '')) {
+                return $this->validationError('AgeBandId or Code is required');
+            }
+
+            $result = (new AgeBandModel())->deleteAgeBand([
+                'AgeBandId' => ($id === null || $id === '') ? null : (int) $id,
+                'Code'      => $code,
+            ]);
+
+            return $this->response->setStatusCode(200)
+                ->setJSON([
+                    'res_code'    => 200,
+                    'status'      => true,
+                    'message'     => 'Age band deleted successfully',
+                    'res_massage' => 'Age band deleted successfully',
+                    'data'        => $result,
+                ]);
+        } catch (\Exception $e) {
+            return $this->failResponse($e);
+        }
+    }
+
     private function ageBandPayload(bool $isUpdate)
     {
         $requestData = $this->request->getJSON(true);

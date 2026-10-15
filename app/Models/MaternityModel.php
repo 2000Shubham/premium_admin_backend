@@ -95,6 +95,41 @@ class MaternityModel extends Model
         return $row ?: [];
     }
 
+    public function deleteMaternityRate($data)
+    {
+        $db = \Config\Database::connect();
+
+        $sql = "
+            EXEC dbo.usp_HT_DeleteMaternityRate
+                @AgeBandId  = ?,
+                @PlanId     = ?,
+                @PlanCode   = ?,
+                @RegionCode = ?
+        ";
+
+        $query = $db->query($sql, [
+            $data['AgeBandId'] ?? null,
+            $data['PlanId'] ?? null,
+            $data['PlanCode'] ?? null,
+            $data['RegionCode'] ?? null,
+        ]);
+
+        if ($query === false) {
+            $error = $db->error();
+            throw new \RuntimeException($error['message'] ?? 'Unable to delete maternity rate');
+        }
+
+        $row = $query->getRowArray();
+        if (! $row) {
+            $stmt = $query->resultID ?? null;
+            if ($stmt && sqlsrv_next_result($stmt)) {
+                $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC) ?: null;
+            }
+        }
+
+        return $row ?: [];
+    }
+
     public function saveMaternityRate($data)
     {
         return $this->writeMaternityRate($data, 0);

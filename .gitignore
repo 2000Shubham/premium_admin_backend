@@ -1,3 +1,19 @@
+# Environment / secrets
 .env
 .env.*
 !.env.example
+
+# CI4 writable
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+writable/debugbar/*
+!writable/**/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

@@ -106,6 +106,37 @@ class AgeBandModel extends Model
         return $this->saveAgeBand($data);
     }
 
+    public function deleteAgeBand($data)
+    {
+        $db = \Config\Database::connect();
+
+        $sql = "
+            EXEC dbo.usp_HT_DeleteAgeBand
+                @AgeBandId = ?,
+                @Code      = ?
+        ";
+
+        $query = $db->query($sql, [
+            $data['AgeBandId'] ?? null,
+            $data['Code'] ?? null,
+        ]);
+
+        if ($query === false) {
+            $error = $db->error();
+            throw new \RuntimeException($error['message'] ?? 'Unable to delete age band');
+        }
+
+        $row = $query->getRowArray();
+        if (! $row) {
+            $stmt = $query->resultID ?? null;
+            if ($stmt && sqlsrv_next_result($stmt)) {
+                $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC) ?: null;
+            }
+        }
+
+        return $row ?: [];
+    }
+
     private function getAgeBandsResult($query)
     {
         $summary = null;

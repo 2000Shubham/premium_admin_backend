@@ -91,6 +91,40 @@ class AnnualLimitModel extends Model
         return $this->filterByRegion($this->collectIdRows($query), $region);
     }
 
+    public function deleteAnnualLimitFactor($data)
+    {
+        $db = \Config\Database::connect();
+        $region = $this->normalizeRegion($data['RegionCode'] ?? null);
+
+        $sql = "
+            EXEC dbo.usp_HT_DeleteAnnualLimitFactor
+                @AnnualLimitFactorId = ?,
+                @AnnualLimit         = ?,
+                @RegionCode          = ?
+        ";
+
+        $query = $db->query($sql, [
+            $data['AnnualLimitFactorId'] ?? null,
+            $data['AnnualLimit'] ?? null,
+            $region,
+        ]);
+
+        if ($query === false) {
+            $error = $db->error();
+            throw new \RuntimeException($error['message'] ?? 'Unable to delete annual limit factor');
+        }
+
+        $row = $query->getRowArray();
+        if (! $row) {
+            $stmt = $query->resultID ?? null;
+            if ($stmt && sqlsrv_next_result($stmt)) {
+                $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC) ?: null;
+            }
+        }
+
+        return $row ?: [];
+    }
+
     public function saveAnnualLimitFactor($data)
     {
         return $this->writeAnnualLimitFactor($data, 0);

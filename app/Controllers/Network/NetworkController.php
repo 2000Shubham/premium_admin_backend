@@ -105,6 +105,59 @@ class NetworkController extends BaseController
         }
     }
 
+    public function deleteNetwork()
+    {
+        try {
+            $requestData = $this->request->getJSON(true);
+            if (! $requestData) {
+                $requestData = $this->request->getPost();
+            }
+            if (! is_array($requestData)) {
+                $requestData = [];
+            }
+
+            $id   = $this->payloadValue($requestData, ['NetworkId', 'networkId', 'Id', 'id']);
+            $code = $this->payloadValue($requestData, ['Code', 'code', 'NetworkCode', 'networkCode']);
+
+            if (($id === null || $id === '') && ($code === null || $code === '')) {
+                return $this->response->setStatusCode(400)
+                    ->setJSON([
+                        'res_code'    => 400,
+                        'status'      => false,
+                        'message'     => 'NetworkId or Code is required',
+                        'res_massage' => 'NetworkId or Code is required',
+                    ]);
+            }
+
+            $result = (new NetworkModel())->deleteNetwork([
+                'NetworkId' => ($id === null || $id === '') ? null : (int) $id,
+                'Code'      => $code,
+            ]);
+
+            return $this->response->setStatusCode(200)
+                ->setJSON([
+                    'res_code'    => 200,
+                    'status'      => true,
+                    'message'     => 'Network deleted successfully',
+                    'res_massage' => 'Network deleted successfully',
+                    'data'        => $result,
+                ]);
+        } catch (\Exception $e) {
+            $message = $e->getMessage();
+            if (preg_match('/\[SQL Server\](.*)$/s', $message, $matches)) {
+                $message = trim($matches[1]);
+            }
+
+            return $this->response->setStatusCode(400)
+                ->setJSON([
+                    'res_code'    => 400,
+                    'status'      => false,
+                    'message'     => $message,
+                    'res_massage' => $message,
+                ]);
+        }
+    }
+
     public function saveNetwork()
     {
         return $this->writeNetwork(false);

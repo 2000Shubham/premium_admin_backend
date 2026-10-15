@@ -85,6 +85,37 @@ class NetworkModel extends Model
         return $this->mapNetworkRow($row ?: []);
     }
 
+    public function deleteNetwork($data)
+    {
+        $db = \Config\Database::connect();
+
+        $sql = "
+            EXEC dbo.usp_HT_DeleteNetwork
+                @NetworkId = ?,
+                @Code      = ?
+        ";
+
+        $query = $db->query($sql, [
+            $data['NetworkId'] ?? null,
+            $data['Code'] ?? null,
+        ]);
+
+        if ($query === false) {
+            $error = $db->error();
+            throw new \RuntimeException($error['message'] ?? 'Unable to delete network');
+        }
+
+        $row = $query->getRowArray();
+        if (! $row) {
+            $stmt = $query->resultID ?? null;
+            if ($stmt && sqlsrv_next_result($stmt)) {
+                $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC) ?: null;
+            }
+        }
+
+        return $this->mapNetworkRow($row ?: []);
+    }
+
     public function saveNetwork($data)
     {
         return $this->writeNetwork($data, 0);

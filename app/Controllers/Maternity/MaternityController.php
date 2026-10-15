@@ -124,6 +124,71 @@ class MaternityController extends BaseController
         }
     }
 
+    public function deleteMaternityRate()
+    {
+        try {
+            $requestData = $this->request->getJSON(true);
+            if (! $requestData) {
+                $requestData = $this->request->getPost();
+            }
+            if (! is_array($requestData)) {
+                $requestData = [];
+            }
+
+            $id       = $this->payloadValue($requestData, ['AgeBandId', 'ageBandId', 'Id', 'id']);
+            $planId   = $this->payloadValue($requestData, ['PlanId', 'planId']);
+            $planCode = $this->payloadValue($requestData, ['PlanCode', 'planCode']);
+
+            if ($id === null || $id === '') {
+                return $this->response->setStatusCode(400)
+                    ->setJSON([
+                        'res_code'    => 400,
+                        'status'      => false,
+                        'message'     => 'AgeBandId is required',
+                        'res_massage' => 'AgeBandId is required',
+                    ]);
+            }
+            if (($planId === null || $planId === '') && ($planCode === null || $planCode === '')) {
+                return $this->response->setStatusCode(400)
+                    ->setJSON([
+                        'res_code'    => 400,
+                        'status'      => false,
+                        'message'     => 'PlanId or PlanCode is required',
+                        'res_massage' => 'PlanId or PlanCode is required',
+                    ]);
+            }
+
+            $result = (new MaternityModel())->deleteMaternityRate([
+                'AgeBandId'  => (int) $id,
+                'PlanId'     => ($planId === null || $planId === '') ? null : (int) $planId,
+                'PlanCode'   => $planCode,
+                'RegionCode' => $this->payloadValue($requestData, ['RegionCode', 'regionCode']),
+            ]);
+
+            return $this->response->setStatusCode(200)
+                ->setJSON([
+                    'res_code'    => 200,
+                    'status'      => true,
+                    'message'     => 'Maternity rate deleted successfully',
+                    'res_massage' => 'Maternity rate deleted successfully',
+                    'data'        => $result,
+                ]);
+        } catch (\Exception $e) {
+            $message = $e->getMessage();
+            if (preg_match('/\[SQL Server\](.*)$/s', $message, $matches)) {
+                $message = trim($matches[1]);
+            }
+
+            return $this->response->setStatusCode(400)
+                ->setJSON([
+                    'res_code'    => 400,
+                    'status'      => false,
+                    'message'     => $message,
+                    'res_massage' => $message,
+                ]);
+        }
+    }
+
     public function saveMaternityRate()
     {
         return $this->writeMaternityRate(false);

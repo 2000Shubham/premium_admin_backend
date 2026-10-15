@@ -135,6 +135,41 @@ class BaseRateModel extends Model
         return $row ?: [];
     }
 
+    public function deleteBaseRate($data)
+    {
+        $db = \Config\Database::connect();
+
+        $sql = "
+            EXEC dbo.usp_HT_DeleteBasePremiumRate
+                @AgeBandId  = ?,
+                @PlanId     = ?,
+                @PlanCode   = ?,
+                @RegionCode = ?
+        ";
+
+        $query = $db->query($sql, [
+            $data['AgeBandId'] ?? null,
+            $data['PlanId'] ?? null,
+            $data['PlanCode'] ?? null,
+            $data['RegionCode'] ?? null,
+        ]);
+
+        if ($query === false) {
+            $error = $db->error();
+            throw new \RuntimeException($error['message'] ?? 'Unable to delete base rate');
+        }
+
+        $row = $query->getRowArray();
+        if (! $row) {
+            $stmt = $query->resultID ?? null;
+            if ($stmt && sqlsrv_next_result($stmt)) {
+                $row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC) ?: null;
+            }
+        }
+
+        return $row ?: [];
+    }
+
     public function saveBaseRate($data)
     {
         return $this->writeBaseRate($data, 0);
